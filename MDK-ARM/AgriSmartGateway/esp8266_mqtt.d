@@ -1,0 +1,14 @@
+agrismartgateway\esp8266_mqtt.o: ..\Middleware\Custom\esp8266_mqtt.c
+agrismartgateway\esp8266_mqtt.o: ..\Middleware\Custom\esp8266_mqtt.h
+agrismartgateway\esp8266_mqtt.o: E:\application\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+agrismartgateway\esp8266_mqtt.o: ..\Middleware\Custom\esp8266.h
+agrismartgateway\esp8266_mqtt.o: ..\Middleware\Third_Party\RT_Thread\include\rtthread.h
+agrismartgateway\esp8266_mqtt.o: ..\Middleware\Third_Party\RT_Thread\config\rtconfig.h
+agrismartgateway\esp8266_mqtt.o: ..\Middleware\Third_Party\RT_Thread\include\rtdebug.h
+agrismartgateway\esp8266_mqtt.o: ..\Middleware\Third_Party\RT_Thread\include\rtdef.h
+agrismartgateway\esp8266_mqtt.o: E:\application\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+agrismartgateway\esp8266_mqtt.o: E:\application\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+agrismartgateway\esp8266_mqtt.o: ..\Middleware\Third_Party\RT_Thread\include\rtservice.h
+agrismartgateway\esp8266_mqtt.o: ..\Middleware\Third_Party\RT_Thread\include\rtm.h
+agrismartgateway\esp8266_mqtt.o: ..\Middleware\Third_Party\RT_Thread\include\rtthread.h
+agrismartgateway\esp8266_mqtt.o: E:\application\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

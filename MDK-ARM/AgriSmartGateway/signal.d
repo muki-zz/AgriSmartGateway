@@ -1,0 +1,13 @@
+agrismartgateway\signal.o: ..\Middleware\Third_Party\RT_Thread\src\signal.c
+agrismartgateway\signal.o: E:\application\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+agrismartgateway\signal.o: E:\application\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+agrismartgateway\signal.o: ..\Middleware\Third_Party\RT_Thread\include\rthw.h
+agrismartgateway\signal.o: ..\Middleware\Third_Party\RT_Thread\include\rtthread.h
+agrismartgateway\signal.o: ..\Middleware\Third_Party\RT_Thread\config\rtconfig.h
+agrismartgateway\signal.o: ..\Middleware\Third_Party\RT_Thread\include\rtdebug.h
+agrismartgateway\signal.o: ..\Middleware\Third_Party\RT_Thread\include\rtdef.h
+agrismartgateway\signal.o: E:\application\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+agrismartgateway\signal.o: E:\application\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+agrismartgateway\signal.o: ..\Middleware\Third_Party\RT_Thread\include\rtservice.h
+agrismartgateway\signal.o: ..\Middleware\Third_Party\RT_Thread\include\rtm.h
+agrismartgateway\signal.o: ..\Middleware\Third_Party\RT_Thread\include\rtthread.h

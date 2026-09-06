@@ -1,0 +1,12 @@
+agrismartgateway\mempool.o: ..\Middleware\Third_Party\RT_Thread\src\mempool.c
+agrismartgateway\mempool.o: ..\Middleware\Third_Party\RT_Thread\include\rthw.h
+agrismartgateway\mempool.o: ..\Middleware\Third_Party\RT_Thread\include\rtthread.h
+agrismartgateway\mempool.o: ..\Middleware\Third_Party\RT_Thread\config\rtconfig.h
+agrismartgateway\mempool.o: ..\Middleware\Third_Party\RT_Thread\include\rtdebug.h
+agrismartgateway\mempool.o: ..\Middleware\Third_Party\RT_Thread\include\rtdef.h
+agrismartgateway\mempool.o: E:\application\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+agrismartgateway\mempool.o: E:\application\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+agrismartgateway\mempool.o: E:\application\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+agrismartgateway\mempool.o: ..\Middleware\Third_Party\RT_Thread\include\rtservice.h
+agrismartgateway\mempool.o: ..\Middleware\Third_Party\RT_Thread\include\rtm.h
+agrismartgateway\mempool.o: ..\Middleware\Third_Party\RT_Thread\include\rtthread.h

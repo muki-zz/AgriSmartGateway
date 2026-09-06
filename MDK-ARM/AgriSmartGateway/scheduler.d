@@ -1,0 +1,12 @@
+agrismartgateway\scheduler.o: ..\Middleware\Third_Party\RT_Thread\src\scheduler.c
+agrismartgateway\scheduler.o: ..\Middleware\Third_Party\RT_Thread\include\rtthread.h
+agrismartgateway\scheduler.o: ..\Middleware\Third_Party\RT_Thread\config\rtconfig.h
+agrismartgateway\scheduler.o: ..\Middleware\Third_Party\RT_Thread\include\rtdebug.h
+agrismartgateway\scheduler.o: ..\Middleware\Third_Party\RT_Thread\include\rtdef.h
+agrismartgateway\scheduler.o: E:\application\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+agrismartgateway\scheduler.o: E:\application\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+agrismartgateway\scheduler.o: E:\application\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+agrismartgateway\scheduler.o: ..\Middleware\Third_Party\RT_Thread\include\rtservice.h
+agrismartgateway\scheduler.o: ..\Middleware\Third_Party\RT_Thread\include\rtm.h
+agrismartgateway\scheduler.o: ..\Middleware\Third_Party\RT_Thread\include\rtthread.h
+agrismartgateway\scheduler.o: ..\Middleware\Third_Party\RT_Thread\include\rthw.h

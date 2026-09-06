@@ -1,0 +1,9 @@
+agrismartgateway\llcc68_app.o: ..\Drivers\Lora\app\llcc68_app.c
+agrismartgateway\llcc68_app.o: ..\Drivers\Lora\app\llcc68_app.h
+agrismartgateway\llcc68_app.o: E:\application\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+agrismartgateway\llcc68_app.o: ..\Drivers\Lora\src\llcc68.h
+agrismartgateway\llcc68_app.o: E:\application\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+agrismartgateway\llcc68_app.o: ..\Drivers\Lora\src\llcc68_status.h
+agrismartgateway\llcc68_app.o: ..\Drivers\Lora\src\llcc68_hal.h
+agrismartgateway\llcc68_app.o: E:\application\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+agrismartgateway\llcc68_app.o: E:\application\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

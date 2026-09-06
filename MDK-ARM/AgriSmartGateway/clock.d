@@ -1,0 +1,12 @@
+agrismartgateway\clock.o: ..\Middleware\Third_Party\RT_Thread\src\clock.c
+agrismartgateway\clock.o: ..\Middleware\Third_Party\RT_Thread\include\rthw.h
+agrismartgateway\clock.o: ..\Middleware\Third_Party\RT_Thread\include\rtthread.h
+agrismartgateway\clock.o: ..\Middleware\Third_Party\RT_Thread\config\rtconfig.h
+agrismartgateway\clock.o: ..\Middleware\Third_Party\RT_Thread\include\rtdebug.h
+agrismartgateway\clock.o: ..\Middleware\Third_Party\RT_Thread\include\rtdef.h
+agrismartgateway\clock.o: E:\application\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+agrismartgateway\clock.o: E:\application\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+agrismartgateway\clock.o: E:\application\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+agrismartgateway\clock.o: ..\Middleware\Third_Party\RT_Thread\include\rtservice.h
+agrismartgateway\clock.o: ..\Middleware\Third_Party\RT_Thread\include\rtm.h
+agrismartgateway\clock.o: ..\Middleware\Third_Party\RT_Thread\include\rtthread.h

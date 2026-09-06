@@ -1,0 +1,12 @@
+agrismartgateway\memheap.o: ..\Middleware\Third_Party\RT_Thread\src\memheap.c
+agrismartgateway\memheap.o: ..\Middleware\Third_Party\RT_Thread\include\rthw.h
+agrismartgateway\memheap.o: ..\Middleware\Third_Party\RT_Thread\include\rtthread.h
+agrismartgateway\memheap.o: ..\Middleware\Third_Party\RT_Thread\config\rtconfig.h
+agrismartgateway\memheap.o: ..\Middleware\Third_Party\RT_Thread\include\rtdebug.h
+agrismartgateway\memheap.o: ..\Middleware\Third_Party\RT_Thread\include\rtdef.h
+agrismartgateway\memheap.o: E:\application\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+agrismartgateway\memheap.o: E:\application\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+agrismartgateway\memheap.o: E:\application\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+agrismartgateway\memheap.o: ..\Middleware\Third_Party\RT_Thread\include\rtservice.h
+agrismartgateway\memheap.o: ..\Middleware\Third_Party\RT_Thread\include\rtm.h
+agrismartgateway\memheap.o: ..\Middleware\Third_Party\RT_Thread\include\rtthread.h

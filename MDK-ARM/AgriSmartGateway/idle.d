@@ -1,0 +1,12 @@
+agrismartgateway\idle.o: ..\Middleware\Third_Party\RT_Thread\src\idle.c
+agrismartgateway\idle.o: ..\Middleware\Third_Party\RT_Thread\include\rthw.h
+agrismartgateway\idle.o: ..\Middleware\Third_Party\RT_Thread\include\rtthread.h
+agrismartgateway\idle.o: ..\Middleware\Third_Party\RT_Thread\config\rtconfig.h
+agrismartgateway\idle.o: ..\Middleware\Third_Party\RT_Thread\include\rtdebug.h
+agrismartgateway\idle.o: ..\Middleware\Third_Party\RT_Thread\include\rtdef.h
+agrismartgateway\idle.o: E:\application\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+agrismartgateway\idle.o: E:\application\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+agrismartgateway\idle.o: E:\application\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+agrismartgateway\idle.o: ..\Middleware\Third_Party\RT_Thread\include\rtservice.h
+agrismartgateway\idle.o: ..\Middleware\Third_Party\RT_Thread\include\rtm.h
+agrismartgateway\idle.o: ..\Middleware\Third_Party\RT_Thread\include\rtthread.h

@@ -1,0 +1,965 @@
+Dependencies for Project 'AgriSmartGateway', Target 'AgriSmartGateway': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (startup_stm32f103xb.s)(0x6A9BB9A8)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include--pd "__UVISION_VERSION SETA 530" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f103xb.lst --xref -o agrismartgateway\startup_stm32f103xb.o --depend agrismartgateway\startup_stm32f103xb.d)
+F (../Core/Src/main.c)(0x6A9BB7DE)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\main.o --omf_browse agrismartgateway\main.crf --depend agrismartgateway\main.d)
+I (../Core/Inc/main.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6A7AE8CC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6A7AE8CC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6A7AE88A)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6A7AE8CC)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6A7AE8CC)
+I (../Core/Inc/spi.h)(0x6A952779)
+I (../Core/Inc/usart.h)(0x6A8FEF83)
+I (../Core/Inc/gpio.h)(0x6A8FEF83)
+F (../Core/Src/gpio.c)(0x6A9BC7B7)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\gpio.o --omf_browse agrismartgateway\gpio.crf --depend agrismartgateway\gpio.d)
+I (../Core/Inc/gpio.h)(0x6A8FEF83)
+I (../Core/Inc/main.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6A7AE8CC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6A7AE8CC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6A7AE88A)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6A7AE8CC)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6A7AE8CC)
+F (../Core/Src/spi.c)(0x6A952779)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\spi.o --omf_browse agrismartgateway\spi.crf --depend agrismartgateway\spi.d)
+I (../Core/Inc/spi.h)(0x6A952779)
+I (../Core/Inc/main.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6A7AE8CC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6A7AE8CC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6A7AE88A)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6A7AE8CC)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6A7AE8CC)
+F (../Core/Src/usart.c)(0x6A9BCBCD)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\usart.o --omf_browse agrismartgateway\usart.crf --depend agrismartgateway\usart.d)
+I (../Core/Inc/usart.h)(0x6A8FEF83)
+I (../Core/Inc/main.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6A7AE8CC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6A7AE8CC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6A7AE88A)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6A7AE8CC)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6A7AE8CC)
+F (../Core/Src/stm32f1xx_it.c)(0x6A9BCB83)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\stm32f1xx_it.o --omf_browse agrismartgateway\stm32f1xx_it.crf --depend agrismartgateway\stm32f1xx_it.d)
+I (../Core/Inc/main.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6A7AE8CC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6A7AE8CC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6A7AE88A)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6A7AE8CC)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6A7AE8CC)
+I (../Core/Inc/stm32f1xx_it.h)(0x6A8FEF84)
+F (../Core/Src/stm32f1xx_hal_msp.c)(0x6A8FEF84)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\stm32f1xx_hal_msp.o --omf_browse agrismartgateway\stm32f1xx_hal_msp.crf --depend agrismartgateway\stm32f1xx_hal_msp.d)
+I (../Core/Inc/main.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6A7AE8CC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6A7AE8CC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6A7AE88A)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6A7AE8CC)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6A7AE8CC)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c)(0x6A7AE8CC)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\stm32f1xx_hal_gpio_ex.o --omf_browse agrismartgateway\stm32f1xx_hal_gpio_ex.crf --depend agrismartgateway\stm32f1xx_hal_gpio_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6A7AE8CC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6A7AE8CC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6A7AE88A)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6A7AE8CC)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6A7AE8CC)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c)(0x6A7AE8CC)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\stm32f1xx_hal_spi.o --omf_browse agrismartgateway\stm32f1xx_hal_spi.crf --depend agrismartgateway\stm32f1xx_hal_spi.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6A7AE8CC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6A7AE8CC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6A7AE88A)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6A7AE8CC)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6A7AE8CC)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c)(0x6A7AE8CC)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\stm32f1xx_hal.o --omf_browse agrismartgateway\stm32f1xx_hal.crf --depend agrismartgateway\stm32f1xx_hal.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6A7AE8CC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6A7AE8CC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6A7AE88A)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6A7AE8CC)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6A7AE8CC)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c)(0x6A7AE8CC)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\stm32f1xx_hal_rcc.o --omf_browse agrismartgateway\stm32f1xx_hal_rcc.crf --depend agrismartgateway\stm32f1xx_hal_rcc.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6A7AE8CC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6A7AE8CC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6A7AE88A)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6A7AE8CC)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6A7AE8CC)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c)(0x6A7AE8CC)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\stm32f1xx_hal_rcc_ex.o --omf_browse agrismartgateway\stm32f1xx_hal_rcc_ex.crf --depend agrismartgateway\stm32f1xx_hal_rcc_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6A7AE8CC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6A7AE8CC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6A7AE88A)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6A7AE8CC)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6A7AE8CC)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c)(0x6A7AE8CC)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\stm32f1xx_hal_gpio.o --omf_browse agrismartgateway\stm32f1xx_hal_gpio.crf --depend agrismartgateway\stm32f1xx_hal_gpio.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6A7AE8CC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6A7AE8CC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6A7AE88A)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6A7AE8CC)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6A7AE8CC)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c)(0x6A7AE8CC)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\stm32f1xx_hal_dma.o --omf_browse agrismartgateway\stm32f1xx_hal_dma.crf --depend agrismartgateway\stm32f1xx_hal_dma.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6A7AE8CC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6A7AE8CC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6A7AE88A)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6A7AE8CC)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6A7AE8CC)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c)(0x6A7AE8CC)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\stm32f1xx_hal_cortex.o --omf_browse agrismartgateway\stm32f1xx_hal_cortex.crf --depend agrismartgateway\stm32f1xx_hal_cortex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6A7AE8CC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6A7AE8CC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6A7AE88A)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6A7AE8CC)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6A7AE8CC)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c)(0x6A7AE8CC)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\stm32f1xx_hal_pwr.o --omf_browse agrismartgateway\stm32f1xx_hal_pwr.crf --depend agrismartgateway\stm32f1xx_hal_pwr.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6A7AE8CC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6A7AE8CC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6A7AE88A)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6A7AE8CC)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6A7AE8CC)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c)(0x6A7AE8CC)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\stm32f1xx_hal_flash.o --omf_browse agrismartgateway\stm32f1xx_hal_flash.crf --depend agrismartgateway\stm32f1xx_hal_flash.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6A7AE8CC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6A7AE8CC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6A7AE88A)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6A7AE8CC)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6A7AE8CC)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c)(0x6A7AE8CC)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\stm32f1xx_hal_flash_ex.o --omf_browse agrismartgateway\stm32f1xx_hal_flash_ex.crf --depend agrismartgateway\stm32f1xx_hal_flash_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6A7AE8CC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6A7AE8CC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6A7AE88A)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6A7AE8CC)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6A7AE8CC)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c)(0x6A7AE8CC)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\stm32f1xx_hal_exti.o --omf_browse agrismartgateway\stm32f1xx_hal_exti.crf --depend agrismartgateway\stm32f1xx_hal_exti.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6A7AE8CC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6A7AE8CC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6A7AE88A)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6A7AE8CC)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6A7AE8CC)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c)(0x6A7AE8CC)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\stm32f1xx_hal_uart.o --omf_browse agrismartgateway\stm32f1xx_hal_uart.crf --depend agrismartgateway\stm32f1xx_hal_uart.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6A7AE8CC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6A7AE8CC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6A7AE88A)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6A7AE8CC)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6A7AE8CC)
+F (../Core/Src/system_stm32f1xx.c)(0x6A7AE8CD)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\system_stm32f1xx.o --omf_browse agrismartgateway\system_stm32f1xx.crf --depend agrismartgateway\system_stm32f1xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6A7AE88A)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6A7AE8CC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6A7AE8CC)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6A7AE8CC)
+F (..\Middleware\Third_Party\RT_Thread\board\board.c)(0x6A9BCBBC)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\board.o --omf_browse agrismartgateway\board.crf --depend agrismartgateway\board.d)
+I (..\Middleware\Third_Party\RT_Thread\include\rthw.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtthread.h)(0x6A8FAA03)
+I (..\Middleware\Third_Party\RT_Thread\config\rtconfig.h)(0x6A8E8625)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdebug.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdef.h)(0x6A8834BA)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E53505C)
+I (..\Middleware\Third_Party\RT_Thread\include\rtservice.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtm.h)(0x6A8549C1)
+I (../Core/Inc/main.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6A7AE8CC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6A7AE8CC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6A7AE8CC)
+I (../Core/Inc/gpio.h)(0x6A8FEF83)
+I (../Core/Inc/usart.h)(0x6A8FEF83)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+F (..\Middleware\Third_Party\RT_Thread\config\rtconfig.h)(0x6A8E8625)()
+F (..\Middleware\Third_Party\RT_Thread\libcpu\arm\cortex-m3\cpuport.c)(0x6A8549C3)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\cpuport.o --omf_browse agrismartgateway\cpuport.crf --depend agrismartgateway\cpuport.d)
+I (..\Middleware\Third_Party\RT_Thread\include\rtthread.h)(0x6A8FAA03)
+I (..\Middleware\Third_Party\RT_Thread\config\rtconfig.h)(0x6A8E8625)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdebug.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdef.h)(0x6A8834BA)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E53505C)
+I (..\Middleware\Third_Party\RT_Thread\include\rtservice.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtm.h)(0x6A8549C1)
+F (..\Middleware\Third_Party\RT_Thread\libcpu\arm\cortex-m3\context_rvds.S)(0x6A8549C3)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include--pd "__UVISION_VERSION SETA 530" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1" --pd "_RTE_ SETA 1"--list context_rvds.lst --xref -o agrismartgateway\context_rvds.o --depend agrismartgateway\context_rvds.d)
+F (..\Middleware\Third_Party\RT_Thread\src\clock.c)(0x6A8549C4)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\clock.o --omf_browse agrismartgateway\clock.crf --depend agrismartgateway\clock.d)
+I (..\Middleware\Third_Party\RT_Thread\include\rthw.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtthread.h)(0x6A8FAA03)
+I (..\Middleware\Third_Party\RT_Thread\config\rtconfig.h)(0x6A8E8625)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdebug.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdef.h)(0x6A8834BA)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E53505C)
+I (..\Middleware\Third_Party\RT_Thread\include\rtservice.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtm.h)(0x6A8549C1)
+F (..\Middleware\Third_Party\RT_Thread\src\components.c)(0x6A8549C4)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\components.o --omf_browse agrismartgateway\components.crf --depend agrismartgateway\components.d)
+I (..\Middleware\Third_Party\RT_Thread\include\rthw.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtthread.h)(0x6A8FAA03)
+I (..\Middleware\Third_Party\RT_Thread\config\rtconfig.h)(0x6A8E8625)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdebug.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdef.h)(0x6A8834BA)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E53505C)
+I (..\Middleware\Third_Party\RT_Thread\include\rtservice.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtm.h)(0x6A8549C1)
+F (..\Middleware\Third_Party\RT_Thread\src\cpu.c)(0x6A8549C4)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\cpu.o --omf_browse agrismartgateway\cpu.crf --depend agrismartgateway\cpu.d)
+I (..\Middleware\Third_Party\RT_Thread\include\rthw.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtthread.h)(0x6A8FAA03)
+I (..\Middleware\Third_Party\RT_Thread\config\rtconfig.h)(0x6A8E8625)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdebug.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdef.h)(0x6A8834BA)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E53505C)
+I (..\Middleware\Third_Party\RT_Thread\include\rtservice.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtm.h)(0x6A8549C1)
+F (..\Middleware\Third_Party\RT_Thread\src\device.c)(0x6A8549C4)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\device.o --omf_browse agrismartgateway\device.crf --depend agrismartgateway\device.d)
+I (..\Middleware\Third_Party\RT_Thread\include\rtthread.h)(0x6A8FAA03)
+I (..\Middleware\Third_Party\RT_Thread\config\rtconfig.h)(0x6A8E8625)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdebug.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdef.h)(0x6A8834BA)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E53505C)
+I (..\Middleware\Third_Party\RT_Thread\include\rtservice.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtm.h)(0x6A8549C1)
+F (..\Middleware\Third_Party\RT_Thread\src\idle.c)(0x6A8549C4)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\idle.o --omf_browse agrismartgateway\idle.crf --depend agrismartgateway\idle.d)
+I (..\Middleware\Third_Party\RT_Thread\include\rthw.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtthread.h)(0x6A8FAA03)
+I (..\Middleware\Third_Party\RT_Thread\config\rtconfig.h)(0x6A8E8625)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdebug.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdef.h)(0x6A8834BA)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E53505C)
+I (..\Middleware\Third_Party\RT_Thread\include\rtservice.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtm.h)(0x6A8549C1)
+F (..\Middleware\Third_Party\RT_Thread\src\ipc.c)(0x6A8549C4)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\ipc.o --omf_browse agrismartgateway\ipc.crf --depend agrismartgateway\ipc.d)
+I (..\Middleware\Third_Party\RT_Thread\include\rtthread.h)(0x6A8FAA03)
+I (..\Middleware\Third_Party\RT_Thread\config\rtconfig.h)(0x6A8E8625)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdebug.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdef.h)(0x6A8834BA)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E53505C)
+I (..\Middleware\Third_Party\RT_Thread\include\rtservice.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtm.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rthw.h)(0x6A8549C1)
+F (..\Middleware\Third_Party\RT_Thread\src\irq.c)(0x6A8549C5)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\irq.o --omf_browse agrismartgateway\irq.crf --depend agrismartgateway\irq.d)
+I (..\Middleware\Third_Party\RT_Thread\include\rthw.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtthread.h)(0x6A8FAA03)
+I (..\Middleware\Third_Party\RT_Thread\config\rtconfig.h)(0x6A8E8625)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdebug.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdef.h)(0x6A8834BA)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E53505C)
+I (..\Middleware\Third_Party\RT_Thread\include\rtservice.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtm.h)(0x6A8549C1)
+F (..\Middleware\Third_Party\RT_Thread\src\kservice.c)(0x6A8549C5)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\kservice.o --omf_browse agrismartgateway\kservice.crf --depend agrismartgateway\kservice.d)
+I (..\Middleware\Third_Party\RT_Thread\include\rtthread.h)(0x6A8FAA03)
+I (..\Middleware\Third_Party\RT_Thread\config\rtconfig.h)(0x6A8E8625)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdebug.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdef.h)(0x6A8834BA)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E53505C)
+I (..\Middleware\Third_Party\RT_Thread\include\rtservice.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtm.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rthw.h)(0x6A8549C1)
+F (..\Middleware\Third_Party\RT_Thread\src\mem.c)(0x6A8549C5)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\mem.o --omf_browse agrismartgateway\mem.crf --depend agrismartgateway\mem.d)
+I (..\Middleware\Third_Party\RT_Thread\include\rthw.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtthread.h)(0x6A8FAA03)
+I (..\Middleware\Third_Party\RT_Thread\config\rtconfig.h)(0x6A8E8625)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdebug.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdef.h)(0x6A8834BA)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E53505C)
+I (..\Middleware\Third_Party\RT_Thread\include\rtservice.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtm.h)(0x6A8549C1)
+F (..\Middleware\Third_Party\RT_Thread\src\memheap.c)(0x6A8549C5)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\memheap.o --omf_browse agrismartgateway\memheap.crf --depend agrismartgateway\memheap.d)
+I (..\Middleware\Third_Party\RT_Thread\include\rthw.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtthread.h)(0x6A8FAA03)
+I (..\Middleware\Third_Party\RT_Thread\config\rtconfig.h)(0x6A8E8625)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdebug.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdef.h)(0x6A8834BA)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E53505C)
+I (..\Middleware\Third_Party\RT_Thread\include\rtservice.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtm.h)(0x6A8549C1)
+F (..\Middleware\Third_Party\RT_Thread\src\mempool.c)(0x6A8549C5)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\mempool.o --omf_browse agrismartgateway\mempool.crf --depend agrismartgateway\mempool.d)
+I (..\Middleware\Third_Party\RT_Thread\include\rthw.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtthread.h)(0x6A8FAA03)
+I (..\Middleware\Third_Party\RT_Thread\config\rtconfig.h)(0x6A8E8625)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdebug.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdef.h)(0x6A8834BA)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E53505C)
+I (..\Middleware\Third_Party\RT_Thread\include\rtservice.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtm.h)(0x6A8549C1)
+F (..\Middleware\Third_Party\RT_Thread\src\object.c)(0x6A8549C5)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\object.o --omf_browse agrismartgateway\object.crf --depend agrismartgateway\object.d)
+I (..\Middleware\Third_Party\RT_Thread\include\rtthread.h)(0x6A8FAA03)
+I (..\Middleware\Third_Party\RT_Thread\config\rtconfig.h)(0x6A8E8625)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdebug.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdef.h)(0x6A8834BA)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E53505C)
+I (..\Middleware\Third_Party\RT_Thread\include\rtservice.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtm.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rthw.h)(0x6A8549C1)
+F (..\Middleware\Third_Party\RT_Thread\src\scheduler.c)(0x6A8549C5)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\scheduler.o --omf_browse agrismartgateway\scheduler.crf --depend agrismartgateway\scheduler.d)
+I (..\Middleware\Third_Party\RT_Thread\include\rtthread.h)(0x6A8FAA03)
+I (..\Middleware\Third_Party\RT_Thread\config\rtconfig.h)(0x6A8E8625)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdebug.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdef.h)(0x6A8834BA)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E53505C)
+I (..\Middleware\Third_Party\RT_Thread\include\rtservice.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtm.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rthw.h)(0x6A8549C1)
+F (..\Middleware\Third_Party\RT_Thread\src\signal.c)(0x6A8549C5)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\signal.o --omf_browse agrismartgateway\signal.crf --depend agrismartgateway\signal.d)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
+I (..\Middleware\Third_Party\RT_Thread\include\rthw.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtthread.h)(0x6A8FAA03)
+I (..\Middleware\Third_Party\RT_Thread\config\rtconfig.h)(0x6A8E8625)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdebug.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdef.h)(0x6A8834BA)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E53505C)
+I (..\Middleware\Third_Party\RT_Thread\include\rtservice.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtm.h)(0x6A8549C1)
+F (..\Middleware\Third_Party\RT_Thread\src\slab.c)(0x6A8549C5)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\slab.o --omf_browse agrismartgateway\slab.crf --depend agrismartgateway\slab.d)
+I (..\Middleware\Third_Party\RT_Thread\include\rthw.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtthread.h)(0x6A8FAA03)
+I (..\Middleware\Third_Party\RT_Thread\config\rtconfig.h)(0x6A8E8625)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdebug.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdef.h)(0x6A8834BA)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E53505C)
+I (..\Middleware\Third_Party\RT_Thread\include\rtservice.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtm.h)(0x6A8549C1)
+F (..\Middleware\Third_Party\RT_Thread\src\thread.c)(0x6A8549C5)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\thread.o --omf_browse agrismartgateway\thread.crf --depend agrismartgateway\thread.d)
+I (..\Middleware\Third_Party\RT_Thread\include\rthw.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtthread.h)(0x6A8FAA03)
+I (..\Middleware\Third_Party\RT_Thread\config\rtconfig.h)(0x6A8E8625)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdebug.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdef.h)(0x6A8834BA)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E53505C)
+I (..\Middleware\Third_Party\RT_Thread\include\rtservice.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtm.h)(0x6A8549C1)
+F (..\Middleware\Third_Party\RT_Thread\src\timer.c)(0x6A8549C5)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\timer.o --omf_browse agrismartgateway\timer.crf --depend agrismartgateway\timer.d)
+I (..\Middleware\Third_Party\RT_Thread\include\rtthread.h)(0x6A8FAA03)
+I (..\Middleware\Third_Party\RT_Thread\config\rtconfig.h)(0x6A8E8625)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdebug.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdef.h)(0x6A8834BA)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E53505C)
+I (..\Middleware\Third_Party\RT_Thread\include\rtservice.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtm.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rthw.h)(0x6A8549C1)
+F (..\Drivers\Lora\app\llcc68_app.c)(0x6A94EE97)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\llcc68_app.o --omf_browse agrismartgateway\llcc68_app.crf --depend agrismartgateway\llcc68_app.d)
+I (..\Drivers\Lora\app\llcc68_app.h)(0x6A9276BF)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\Drivers\Lora\src\llcc68.h)(0x6A9276BF)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E53505C)
+I (..\Drivers\Lora\src\llcc68_status.h)(0x6A9276BF)
+I (..\Drivers\Lora\src\llcc68_hal.h)(0x6A9276BF)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+F (..\Drivers\Lora\bsp\llcc68_hal_stm32.c)(0x6A94F1DA)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\llcc68_hal_stm32.o --omf_browse agrismartgateway\llcc68_hal_stm32.crf --depend agrismartgateway\llcc68_hal_stm32.d)
+I (..\Drivers\Lora\src\llcc68_hal.h)(0x6A9276BF)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E53505C)
+I (..\Drivers\Lora\bsp\llcc68_stm32_port.h)(0x6A952A80)
+I (../Core/Inc/main.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6A7AE8CC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6A7AE8CC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6A7AE8CC)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6A7AE8CC)
+I (../Core/Inc/spi.h)(0x6A952779)
+I (..\Middleware\Third_Party\RT_Thread\include\rtthread.h)(0x6A8FAA03)
+I (..\Middleware\Third_Party\RT_Thread\config\rtconfig.h)(0x6A8E8625)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdebug.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdef.h)(0x6A8834BA)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E53505C)
+I (..\Middleware\Third_Party\RT_Thread\include\rtservice.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtm.h)(0x6A8549C1)
+F (..\Drivers\Lora\src\llcc68.c)(0x6A9276BF)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\llcc68.o --omf_browse agrismartgateway\llcc68.crf --depend agrismartgateway\llcc68.d)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (..\Drivers\Lora\src\llcc68.h)(0x6A9276BF)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E53505C)
+I (..\Drivers\Lora\src\llcc68_status.h)(0x6A9276BF)
+I (..\Drivers\Lora\src\llcc68_hal.h)(0x6A9276BF)
+I (..\Drivers\Lora\src\llcc68_regs.h)(0x6A9276BF)
+F (..\Drivers\Lora\src\llcc68_driver_version.c)(0x6A9276BF)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\llcc68_driver_version.o --omf_browse agrismartgateway\llcc68_driver_version.crf --depend agrismartgateway\llcc68_driver_version.d)
+I (..\Drivers\Lora\src\llcc68_driver_version.h)(0x6A9276BF)
+F (..\Middleware\Custom\esp8266.c)(0x6A9BCBF6)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\esp8266.o --omf_browse agrismartgateway\esp8266.crf --depend agrismartgateway\esp8266.d)
+I (..\Middleware\Custom\esp8266.h)(0x6A914C46)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (../Core/Inc/usart.h)(0x6A8FEF83)
+I (../Core/Inc/main.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6A7AE8CC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6A7AE8CC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6A7AE8CC)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6A7AE8CC)
+I (..\Middleware\Third_Party\RT_Thread\include\rtthread.h)(0x6A8FAA03)
+I (..\Middleware\Third_Party\RT_Thread\config\rtconfig.h)(0x6A8E8625)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdebug.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdef.h)(0x6A8834BA)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E53505C)
+I (..\Middleware\Third_Party\RT_Thread\include\rtservice.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtm.h)(0x6A8549C1)
+I (E:\application\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
+F (..\Middleware\Custom\esp8266.h)(0x6A914C46)()
+F (..\Middleware\Custom\esp8266_mqtt.c)(0x6A9BCC45)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\esp8266_mqtt.o --omf_browse agrismartgateway\esp8266_mqtt.crf --depend agrismartgateway\esp8266_mqtt.d)
+I (..\Middleware\Custom\esp8266_mqtt.h)(0x6A97938C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\Middleware\Custom\esp8266.h)(0x6A914C46)
+I (..\Middleware\Third_Party\RT_Thread\include\rtthread.h)(0x6A8FAA03)
+I (..\Middleware\Third_Party\RT_Thread\config\rtconfig.h)(0x6A8E8625)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdebug.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdef.h)(0x6A8834BA)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E53505C)
+I (..\Middleware\Third_Party\RT_Thread\include\rtservice.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtm.h)(0x6A8549C1)
+I (E:\application\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
+F (..\Middleware\Custom\esp8266_mqtt.h)(0x6A97938C)()
+F (..\Application\app_config.h)(0x6A9BCD19)()
+F (..\Application\app_datahub.h)(0x6A9BCD06)()
+F (..\Application\app_lora.c)(0x6A9BCCD8)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\app_lora.o --omf_browse agrismartgateway\app_lora.crf --depend agrismartgateway\app_lora.d)
+I (..\Application\app_lora.h)(0x6A9BC553)
+I (..\Application\app_config.h)(0x6A9BCD19)
+I (..\Drivers\Lora\app\llcc68_app.h)(0x6A9276BF)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\Middleware\Third_Party\RT_Thread\include\rtthread.h)(0x6A8FAA03)
+I (..\Middleware\Third_Party\RT_Thread\config\rtconfig.h)(0x6A8E8625)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdebug.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdef.h)(0x6A8834BA)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E53505C)
+I (..\Middleware\Third_Party\RT_Thread\include\rtservice.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtm.h)(0x6A8549C1)
+I (..\Application\app_datahub.h)(0x6A9BCD06)
+I (../Core/Inc/main.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6A7AE8CC)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A95277A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6A7AE8CC)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6A7AE8CD)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6A7AE88A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6A7AE8CD)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6A7AE8CC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6A7AE8CC)
+I (..\Middleware\Custom\weather_algo.h)(0x6A9777C7)
+I (E:\application\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
+F (..\Application\app_lora.h)(0x6A9BC553)()
+F (..\Application\app_mqtt.c)(0x6A9CDD3D)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Middleware\Third_Party\RT_Thread\config -I ..\Middleware\Third_Party\RT_Thread\include -I ..\Drivers\Lora\app -I ..\Drivers\Lora\bsp -I ..\Drivers\Lora\src -I ..\Middleware\Custom -I ..\Application-I.\RTE\_AgriSmartGateway-IC:\Users\ye132\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ye132\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o agrismartgateway\app_mqtt.o --omf_browse agrismartgateway\app_mqtt.crf --depend agrismartgateway\app_mqtt.d)
+I (..\Application\app_mqtt.h)(0x6A9BC4EA)
+I (..\Application\app_config.h)(0x6A9BCD19)
+I (..\Middleware\Custom\esp8266_mqtt.h)(0x6A97938C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\Middleware\Third_Party\RT_Thread\include\rtthread.h)(0x6A8FAA03)
+I (..\Middleware\Third_Party\RT_Thread\config\rtconfig.h)(0x6A8E8625)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdebug.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtdef.h)(0x6A8834BA)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (E:\application\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E53505C)
+I (..\Middleware\Third_Party\RT_Thread\include\rtservice.h)(0x6A8549C1)
+I (..\Middleware\Third_Party\RT_Thread\include\rtm.h)(0x6A8549C1)
+I (..\Application\app_datahub.h)(0x6A9BCD06)
+I (E:\application\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
+F (..\Application\app_mqtt.h)(0x6A9BC4EA)()
